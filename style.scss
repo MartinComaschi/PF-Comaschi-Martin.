@@ -329,8 +329,17 @@ dl {
     width: 100%;
     height: auto;
 }
-.cartasjugadores{
+
+.cartasjugadores {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media screen and (min-width: 700px) {
+    .card {
+        width: 35%;
+        flex-direction: column;
+        align-items: center;
+    }
 }

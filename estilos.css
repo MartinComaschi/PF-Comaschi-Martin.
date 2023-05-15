@@ -302,7 +302,7 @@ dl {
 .card {
     background-color: #d9ad26;
     margin-bottom: 5%;
-    width: 70%;
+    width: 3 0%;
 }
 
 .card__tittle {
@@ -328,6 +328,15 @@ dl {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 700px) {
+    .card {
+        width: 35%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 /*# sourceMappingURL=estilos.css.map */

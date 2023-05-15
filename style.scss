@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 .imgtodo {
     width: 400px;
     border: 10px solid #d9ad26;
@@ -28,7 +26,7 @@ footer {
     margin-bottom: 6px;
     font-size: 50px;
     letter-spacing: 20px;
-    color: #d9ad26;
+    color: #d9ad26
 }
 
 .imgtodo {
@@ -69,6 +67,7 @@ footer {
     text-align: center;
     text-transform: uppercase;
     padding-top: 40px;
+
 }
 
 .titulo2info {
@@ -123,6 +122,8 @@ dt {
 .tituloinicio {
     padding-top: 25px;
     padding-bottom: 25px;
+
+
 }
 
 .Copasinicio {
@@ -136,6 +137,8 @@ dt {
         flex-direction: column;
         align-items: center;
         padding: 30px;
+
+
     }
 }
 
@@ -157,6 +160,7 @@ dt {
     border-radius: 5px;
     box-shadow: 0px 0px 10px #000000;
     cursor: pointer;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -167,13 +171,14 @@ dt {
     }
 }
 
+
 .fondo-boton {
     background-image: url(./Imagenes/fondoboton.jpg);
 }
 
 .tamañoimagen {
     width: 350px;
-    border: 10px solid #d9ad26;
+    border: 10px solid #d9ad26
 }
 
 .titulo10 {
@@ -240,7 +245,7 @@ dl {
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: "Calibri";
+    font-family: 'Calibri';
     color: white;
     margin-bottom: 65px;
 }
@@ -252,12 +257,12 @@ dl {
 
 .controles {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2823529412);
+    background-color: #00000048;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #d9ad26;
-    font-family: "Calibri";
+    font-family: 'Calibri';
     font-size: 18px;
 }
 
@@ -279,11 +284,11 @@ dl {
 
 .contactame .mensaje {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2823529412);
+    background-color: #00000048;
     padding: 30px;
     border-radius: 4px;
     margin-bottom: 16px;
-    font-family: "Calibri";
+    font-family: 'Calibri';
     font-size: 18px;
     border: 1px solid #d9ad26;
 }
@@ -299,17 +304,19 @@ dl {
     background-size: cover;
 }
 
+
 .card {
     background-color: #d9ad26;
     margin-bottom: 5%;
     width: 70%;
+    margin-left: 15%;
 }
 
 .card__tittle {
     text-align: center;
-    font-family: "Calibri";
+    font-family: 'Calibri';
     color: white;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 00 5px #000;
     font-size: 30px;
 }
 
@@ -322,12 +329,8 @@ dl {
     width: 100%;
     height: auto;
 }
-
-.cartasjugadores {
+.cartasjugadores{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
-/*# sourceMappingURL=estilos.css.map */

@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .imgtodo {
     width: 400px;
     border: 10px solid #d9ad26;
+    margin-bottom: 5%;
 }
 
 h1 {
@@ -69,6 +75,7 @@ footer {
 }
 
 .titulo2info {
+    text-align: center;
     color: black;
     font-size: 50px;
 }
@@ -133,6 +140,7 @@ padding-bottom: 75px;
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    
 
     }
 }
@@ -188,4 +196,139 @@ padding-bottom: 75px;
     }
     dl{
         color:#d9ad26 ;
+    }
+
+    .parrafocopas{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .titulogoles{
+        text-align: center;
+        font-size: 30px;
+        color: #d9ad26;
+    }
+    .parrafocopas1{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .videogoles{
+        width: 50%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #d9ad26;
+        margin-bottom: 5%;
+    }
+    .videogoles::after{
+        content: "";
+        display: block;
+        width: 100%;
+        padding-bottom: 56.25%;
+    }
+
+    .videogoles2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+    .contactame{
+    width: 400px;
+    background-color: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;   
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: white; 
+    margin-bottom: 65px;
+    }
+.contactame h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    width: 100%;
+    background-color: #00000048;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #d9ad26;
+    font-family:'Calibri';
+    font-size: 18px;
+}
+
+.contactame p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.contactame .botoncontactame{
+    width: 100%;
+    background-color: #d9ad26;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.contactame .mensaje{
+    width: 100%;
+    background-color: #00000048;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family:'Calibri';
+    font-size: 18px;
+    border: 1px solid #d9ad26;
+}
+
+.titulocontactame{
+    padding-top: 40px;
+    color: #000000;
+}
+
+.fondocontactame{
+    background-image: url(./Imagenes/fondocontactame.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card{
+    background-color: #d9ad26;
+    margin-bottom: 5%;
+    width: 70%;
+    margin-left: 15%;
+}
+.card__tittle{
+    text-align: center;
+    font-family: 'Calibri';
+    color: white;
+    text-shadow: 0 00 5px #000;
+    font-size: 30px;
+}
+
+.card__parrafo{
+    padding: 15px;
+    text-align: justify;
+}
+
+.tamañoimagenjugadores{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 700px){
+    .card{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
     }

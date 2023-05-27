@@ -95,27 +95,30 @@ footer {
 }
 
 .tituloinfo {
-    color: black;
+    color: #d9ad26;
     font-size: 70px;
     font-family: sans-serif;
     text-align: center;
     text-transform: uppercase;
     padding-top: 40px;
     font-weight: 700;
+    text-shadow: 2px 2px 6px black;
 }
 
 .titulo2info {
     text-align: center;
-    color: black;
+    color: #d9ad26;
     font-size: 50px;
     font-weight: 500;
+    text-shadow: 2px 2px 6px black;
 }
 
 .pinfo {
-    color: black;
+    color: #d9ad26;
     font-size: 30px;
     text-align: center;
     font-weight: 700;
+    text-shadow: 2px 2px 6px black;
 }
 
 .fondo-mundial {
@@ -154,6 +157,11 @@ footer {
 .fondo-america{
     background-image: url(./Imagenes/americamobile.jpg);
     background-position: center;
+}
+.fondoinfo{
+    background-image: url(./Imagenes/infomobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 }
 
